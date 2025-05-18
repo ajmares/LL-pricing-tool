@@ -87,11 +87,12 @@
     <div class="total">
         Total Cost: ${{ "%.2f"|format(total_cost) }}
     </div>
+    <hr style="border: none; border-top: 2px solid #eee; margin: 32px 0 24px 0;">
     {% endif %}
 
     {% if unavailable %}
-    <div class="unavailable">
-        <h2>Tests to Check with Partner Labs</h2>
+    <div class="unavailable" style="color: #111;">
+        <h2 style="color: #111;">Tests to Check with Partner Labs</h2>
         <ul>
             {% for test in unavailable %}
             <li>{{ test }}</li>
