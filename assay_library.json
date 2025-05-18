@@ -1,0 +1,364 @@
+{
+    "assays": [
+        {
+            "name": "Acrylamide",
+            "price": 220.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Amino Acid Profile",
+            "price": 400.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "BPA / BPS",
+            "price": 220.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Choline",
+            "price": 300.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Coenzyme Q10 (Ubiquinol)",
+            "price": 303.00,
+            "turnaround_time": "10 days"
+        },
+        {
+            "name": "Coliforms",
+            "price": 23.00,
+            "turnaround_time": "2 days"
+        },
+        {
+            "name": "Creatine",
+            "price": 175.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Crude Fiber",
+            "price": 50.00,
+            "turnaround_time": "7 days"
+        },
+        {
+            "name": "Dietary Fiber (Soluble + Insoluble)",
+            "price": 150.00,
+            "turnaround_time": "10 days"
+        },
+        {
+            "name": "E. Coli",
+            "price": 23.00,
+            "turnaround_time": "2 days"
+        },
+        {
+            "name": "Egg Allergen",
+            "price": 95.00,
+            "turnaround_time": "1 day"
+        },
+        {
+            "name": "Enterobacteriaceae",
+            "price": 38.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Fatty Acid Profile",
+            "price": 180.00,
+            "turnaround_time": "7 days"
+        },
+        {
+            "name": "Fish Allergen",
+            "price": 165.00,
+            "turnaround_time": "2 days"
+        },
+        {
+            "name": "Gluten Allergen",
+            "price": 95.00,
+            "turnaround_time": "1 day"
+        },
+        {
+            "name": "Glyphosate & AMPA",
+            "price": 295.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Heavy Metals",
+            "price": 110.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Hydroxyproline (Collagen Conversion)",
+            "price": 250.00,
+            "turnaround_time": "10 days"
+        },
+        {
+            "name": "Iodine",
+            "price": 285.00,
+            "turnaround_time": "7 days"
+        },
+        {
+            "name": "Inorganic Arsenic",
+            "price": 295.00,
+            "turnaround_time": "7 days"
+        },
+        {
+            "name": "Listeria Monocytogenes",
+            "price": 52.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Listeria Species",
+            "price": 52.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Microplastics",
+            "price": 500.00,
+            "turnaround_time": "14 days"
+        },
+        {
+            "name": "Minerals",
+            "price": 110.00,
+            "turnaround_time": "3 days",
+            "analytes": [
+                "sodium",
+                "potassium",
+                "calcium",
+                "iron"
+            ]
+        },
+        {
+            "name": "Moisture Analysis",
+            "price": 50.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Mycotoxins",
+            "price": 350.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Nutrition Facts Panel",
+            "price": 1095.00,
+            "turnaround_time": "11 days"
+        },
+        {
+            "name": "p-Anisidine Value",
+            "price": 60.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "PDCAAS",
+            "price": 1800.00,
+            "turnaround_time": "16 days"
+        },
+        {
+            "name": "Peanut Allergen",
+            "price": 95.00,
+            "turnaround_time": "1 day"
+        },
+        {
+            "name": "Peroxide Value",
+            "price": 60.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Pesticides",
+            "price": 385.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Pesticides - FDA Import / Export",
+            "price": 425.00,
+            "turnaround_time": "7 days"
+        },
+        {
+            "name": "PFAS",
+            "price": 350.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Phthalates",
+            "price": 275.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Protein",
+            "price": 50.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Residual Solvents",
+            "price": 425.00,
+            "turnaround_time": "7 days"
+        },
+        {
+            "name": "Salmonella",
+            "price": 52.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Sesame",
+            "price": 95.00,
+            "turnaround_time": "1 day"
+        },
+        {
+            "name": "Shellfish/Crustacean Allergen",
+            "price": 95.00,
+            "turnaround_time": "1 day"
+        },
+        {
+            "name": "Simple NFP",
+            "price": 170.00,
+            "turnaround_time": "3 days",
+            "analytes": [
+                "fat",
+                "carbs",
+                "calories",
+                "protein"
+            ]
+        },
+        {
+            "name": "Soy Allergen",
+            "price": 95.00,
+            "turnaround_time": "1 day"
+        },
+        {
+            "name": "Staphylococcus Aureus",
+            "price": 38.00,
+            "turnaround_time": "2 days"
+        },
+        {
+            "name": "Sugar",
+            "price": 95.00,
+            "turnaround_time": "10 days"
+        },
+        {
+            "name": "Thallium",
+            "price": 65.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Total Milk Allergen",
+            "price": 95.00,
+            "turnaround_time": "1 day"
+        },
+        {
+            "name": "Total Plate Count",
+            "price": 23.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Trace Minerals",
+            "price": 110.00,
+            "turnaround_time": "3 days",
+            "analytes": [
+                "magnesium",
+                "zinc",
+                "selenium",
+                "copper",
+                "manganese",
+                "chromium"
+            ]
+        },
+        {
+            "name": "Vitamin A",
+            "price": 250.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Vitamin B1 (Thiamine)",
+            "price": 150.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B12 (Cobalamin)",
+            "price": 200.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Vitamin B2 (Riboflavin)",
+            "price": 90.00,
+            "turnaround_time": "7 days"
+        },
+        {
+            "name": "Vitamin B3 (Niacin)",
+            "price": 180.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Vitamin B5",
+            "price": 150.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B6 (Pyridoxine)",
+            "price": 150.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B7",
+            "price": 250.00,
+            "turnaround_time": "10 days"
+        },
+        {
+            "name": "Vitamin B9 (Folic Acid/Folate)",
+            "price": 185.00,
+            "turnaround_time": "10 days"
+        },
+        {
+            "name": "Vitamin C",
+            "price": 60.00,
+            "turnaround_time": "7 days"
+        },
+        {
+            "name": "Vitamin D (D2 + D3)",
+            "price": 270.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Vitamin E",
+            "price": 200.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Vitamin K (All Forms)",
+            "price": 425.00,
+            "turnaround_time": "10 days"
+        },
+        {
+            "name": "Yeast & Mold",
+            "price": 23.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Magnesium (Trace Minerals)",
+            "price": 110.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Zinc (Trace Minerals)",
+            "price": 110.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Selenium (Trace Minerals)",
+            "price": 110.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Copper (Trace Minerals)",
+            "price": 110.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Manganese (Trace Minerals)",
+            "price": 110.00,
+            "turnaround_time": "3 days"
+        },
+        {
+            "name": "Chromium (Trace Minerals)",
+            "price": 110.00,
+            "turnaround_time": "3 days"
+        }
+    ]
+} 
