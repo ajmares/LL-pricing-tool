@@ -65,26 +65,31 @@ class AssayPricer:
 
         for item in requested_items:
             norm_item = self._normalize(item)
-            print(f"DEBUG: Processing item: {item}, normalized: {norm_item}")
-            
-            # Check if it's an assay or analyte
-            if norm_item in self.analyte_to_assay_map:
+            # Check if it's an assay name
+            if norm_item in self.available_assays and norm_item not in processed_assays:
+                assay_data = self.available_assays[norm_item]
+                available.append({
+                    'name': assay_data.name,
+                    'price': assay_data.price,
+                    'turnaround_time': assay_data.turnaround_time
+                })
+                total_cost += assay_data.price
+                processed_assays.add(norm_item)
+            # Check if it's an analyte
+            elif norm_item in self.analyte_to_assay_map:
                 assay_name = self.analyte_to_assay_map[norm_item]
                 norm_assay_name = self._normalize(assay_name)
                 if norm_assay_name not in processed_assays:
                     assay_data = self.available_assays[norm_assay_name]
                     available.append({
-                        'name': assay_data.name,
+                        'name': f"{assay_data.name} ({item})",
                         'price': assay_data.price,
-                        'turnaround_time': assay_data.turnaround_time,
-                        'requested_analytes': [item]
+                        'turnaround_time': assay_data.turnaround_time
                     })
                     total_cost += assay_data.price
                     processed_assays.add(norm_assay_name)
-                    print(f"DEBUG: Matched: {item} to assay: {assay_data.name}")
             else:
                 unavailable.append(item)
-                print(f"DEBUG: No match found for: {item}")
 
         return available, unavailable, total_cost
 
@@ -93,11 +98,7 @@ class AssayPricer:
         output.append("TESTS WE CAN DO:")
         if available:
             for assay in available:
-                if 'requested_analytes' in assay:
-                    analytes_str = ', '.join(assay['requested_analytes'])
-                    output.append(f"\n{assay['name']} ({analytes_str})")
-                else:
-                    output.append(f"\n{assay['name']}")
+                output.append(f"\n{assay['name']}")
                 output.append(f"Price: ${assay['price']:.2f}")
                 output.append(f"TAT: {assay['turnaround_time']}")
         else:
