@@ -261,71 +261,6 @@
             ]
         },
         {
-            "name": "Vitamin A",
-            "price": 250.00,
-            "turnaround_time": "3 days"
-        },
-        {
-            "name": "Vitamin B1 (Thiamine)",
-            "price": 150.00,
-            "turnaround_time": "5 days"
-        },
-        {
-            "name": "Vitamin B12 (Cobalamin)",
-            "price": 200.00,
-            "turnaround_time": "3 days"
-        },
-        {
-            "name": "Vitamin B2 (Riboflavin)",
-            "price": 90.00,
-            "turnaround_time": "7 days"
-        },
-        {
-            "name": "Vitamin B3 (Niacin)",
-            "price": 180.00,
-            "turnaround_time": "3 days"
-        },
-        {
-            "name": "Vitamin B5",
-            "price": 150.00,
-            "turnaround_time": "5 days"
-        },
-        {
-            "name": "Vitamin B6 (Pyridoxine)",
-            "price": 150.00,
-            "turnaround_time": "5 days"
-        },
-        {
-            "name": "Vitamin B7",
-            "price": 250.00,
-            "turnaround_time": "10 days"
-        },
-        {
-            "name": "Vitamin B9 (Folic Acid/Folate)",
-            "price": 185.00,
-            "turnaround_time": "10 days"
-        },
-        {
-            "name": "Vitamin C",
-            "price": 60.00,
-            "turnaround_time": "7 days"
-        },
-        {
-            "name": "Vitamin D (D2 + D3)",
-            "price": 270.00,
-            "turnaround_time": "3 days"
-        },
-        {
-            "name": "Vitamin E",
-            "price": 200.00,
-            "turnaround_time": "3 days"
-        },
-        {
-            "name": "Vitamin K (All Forms)",
-            "price": 425.00,
-            "turnaround_time": "10 days"
-        },
-        {
             "name": "Yeast & Mold",
             "price": 23.00,
             "turnaround_time": "5 days"
@@ -359,6 +294,251 @@
             "name": "Chromium (Trace Minerals)",
             "price": 110.00,
             "turnaround_time": "3 days"
+        },
+        {
+            "name": "Vitamin B1 (Benfotiamine)",
+            "price": 170.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B1 (Thiamine)",
+            "price": 140.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B2 (Riboflavin)",
+            "price": 140.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B2 (Riboflavin 5-phosphate)",
+            "price": 140.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B3 (Niacin)",
+            "price": 140.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B3 (Niacinamide)",
+            "price": 140.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B3 (Nicotinamide Riboside)",
+            "price": 170.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B5 (Pantothenic acid)",
+            "price": 140.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B6 (Pyridoxine HCl)",
+            "price": 140.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B6 (Pyridoxal 5'-Phosphate)",
+            "price": 140.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B7 (Biotin)",
+            "price": 140.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B9 (Folic acid) single form",
+            "price": 100.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B9 (L-methyltetrahydrofolic acid, 5MTHF)",
+            "price": 140.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B12 (Cyanocobalamin)",
+            "price": 140.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B12 (Hydroxycobalamin)",
+            "price": 140.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B12 (Methylcobalamin)",
+            "price": 140.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B12 (Adenosylcobalamin)",
+            "price": 160.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B12 (Cobalamin)",
+            "price": 140.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B12 panel (Methylcobalamin & Cyanocobalamin)",
+            "price": 160.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin B17 (Laetrile / Amygdalin)",
+            "price": 210.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin A (Retinol)",
+            "price": 100.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin A (Retinyl Acetate)",
+            "price": 140.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin A (Retinyl Palmitate)",
+            "price": 140.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin A (Alpha Carotene)",
+            "price": 210.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin A (Beta Carotene)",
+            "price": 160.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin A panel (Beta Carotene and Retinyl acetate)",
+            "price": 205.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin C (Ascorbic acid)",
+            "price": 110.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin C (Ascorbyl palmitate)",
+            "price": 180.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin C (Tetrahexyldecyl Ascorbate)",
+            "price": 295.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin D2",
+            "price": 155.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin D3 (Cholecalciferol)",
+            "price": 155.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin E (Alpha Tocopherols)",
+            "price": 155.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin E (Alpha Tocopherols) Succinate",
+            "price": 155.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin E (Beta Tocopherols)",
+            "price": 155.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin E (Delta Tocopherols)",
+            "price": 155.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin E (Gamma Tocopherols)",
+            "price": 155.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin E (Mixed Tocopherols)",
+            "price": 210.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin E Acetate (alpha-tocopherol acetate)",
+            "price": 170.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin E (Synthetic)",
+            "price": 155.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin E (Natural products)",
+            "price": 190.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin E (Delta-Tocotrienol)",
+            "price": 205.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin E (Gamma-Tocotrienol)",
+            "price": 205.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin E (Total Tocotrienol)",
+            "price": 205.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin E (Mixed Tocotrienols)",
+            "price": 230.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin K1 (Phylloquinone, Phytonadione)",
+            "price": 155.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin K2 (MK-4 or Menaquinone 4)",
+            "price": 155.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin K2 (MK-7 or Menaquinone 7)",
+            "price": 205.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin K3 (Menadione)",
+            "price": 155.00,
+            "turnaround_time": "5 days"
+        },
+        {
+            "name": "Vitamin K3 (synthetic)",
+            "price": 155.00,
+            "turnaround_time": "5 days"
         }
     ]
 } 
