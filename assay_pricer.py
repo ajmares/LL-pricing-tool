@@ -25,7 +25,8 @@ class AssayPricer:
     def _normalize(self, s: str) -> str:
         # Remove parentheses and their contents, then normalize
         s = re.sub(r'\([^)]*\)', '', s)
-        return re.sub(r's$', '', s.replace(' ', '').lower())
+        # Remove trailing 's' from each word, keep spaces for mapping
+        return ' '.join(word.rstrip('s') for word in s.lower().split())
 
     def _load_library(self) -> Dict[str, Assay]:
         with open(self.library_path, 'r') as f:
