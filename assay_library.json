@@ -187,11 +187,6 @@
             "turnaround_time": "3 days"
         },
         {
-            "name": "Residual Solvents",
-            "price": 425.00,
-            "turnaround_time": "7 days"
-        },
-        {
             "name": "Salmonella",
             "price": 52.00,
             "turnaround_time": "3 days"
@@ -226,11 +221,6 @@
             "name": "Staphylococcus Aureus",
             "price": 38.00,
             "turnaround_time": "2 days"
-        },
-        {
-            "name": "Sugar",
-            "price": 95.00,
-            "turnaround_time": "10 days"
         },
         {
             "name": "Thallium",
@@ -541,14 +531,14 @@
             "turnaround_time": "5 days"
         },
         { "name": "Mixed Carotenes (Alpha-Carotene, Beta-Carotene, Lycopene, Lutein)", "price": 295.00, "turnaround_time": "5 days" },
-        { "name": "Sugar Panel", "price": 170.00, "turnaround_time": "5 days" },
-        { "name": "Residual Solvent Panel", "price": 205.00, "turnaround_time": "5 days" },
+        { "name": "Sugar Panel", "price": 170.00, "turnaround_time": "5 days", "analytes": ["Glucose", "Sucrose", "Fructose"] },
+        { "name": "Residual Solvent Panel", "price": 205.00, "turnaround_time": "5 days", "analytes": ["1,2-Dichloroethane", "Acetone", "Acetonitrile", "Benzene", "Butane", "Chloroform", "Ethanol", "Ethyl acetate", "Ethyl ether", "Ethylene oxide", "Heptane", "Isopropanol", "Methanol", "Methylene chloride", "n-Hexane", "Pentane", "Propane", "Toluene", "Trichloroethene", "Xylenes"] },
         { "name": "Artificial sweeteners (standard panel)", "price": 195.00, "turnaround_time": "5 days" },
         { "name": "TBHQ", "price": 210.00, "turnaround_time": "5 days" },
         { "name": "Butylated Hydroxytoluene (BHT)", "price": 215.00, "turnaround_time": "5 days" },
         { "name": "Butylated Hydroxyanisole (BHA)", "price": 215.00, "turnaround_time": "5 days" },
         { "name": "Preservative panel (benzoate, sorbate)", "price": 165.00, "turnaround_time": "5 days" },
-        { "name": "Amazon Sports Supplement Panel", "price": 330.00, "turnaround_time": "5 days" },
+        { "name": "Amazon Sports Supplement Panel", "price": 330.00, "turnaround_time": "5 days", "analytes": ["Ostarine", "Ligandrol", "4-DHEA", "Sibutramine", "Desmethylsibutramine", "Didesmethylsibutramine", "DMAA"] },
         { "name": "Amino Acid Panel", "price": 660.00, "turnaround_time": "5 days" },
         { "name": "CoQ10", "price": 175.00, "turnaround_time": "5 days" },
         { "name": "Vitamin B6 (Pyridoxal)", "price": 140.00, "turnaround_time": "5 days" },
@@ -571,7 +561,7 @@
         { "name": "Beta-Alanine", "price": 150.00, "turnaround_time": "5 days" },
         { "name": "Glutathione (reduced)", "price": 150.00, "turnaround_time": "5 days" },
         { "name": "N-Acetyl-L-Cysteine Ethyl Ester (NACET)", "price": 250.00, "turnaround_time": "5 days" },
-        { "name": "BCAA Profile (Leucine, Isoleucine, Valine)", "price": 185.00, "turnaround_time": "5 days" },
+        { "name": "BCAA Profile (Leucine, Isoleucine, Valine)", "price": 185.00, "turnaround_time": "5 days", "analytes": ["Leucine", "Isoleucine", "Valine"] },
         { "name": "Rebaudioside A", "price": 160.00, "turnaround_time": "5 days" },
         { "name": "Erythritol", "price": 155.00, "turnaround_time": "5 days" },
         { "name": "Sorbitol", "price": 140.00, "turnaround_time": "5 days" },
@@ -585,7 +575,7 @@
         { "name": "Milk Thistle Silymarin", "price": 265.00, "turnaround_time": "5 days" },
         { "name": "Gingerol Panel", "price": 190.00, "turnaround_time": "5 days" },
         { "name": "Gingerol and Shogaol Panel", "price": 300.00, "turnaround_time": "5 days" },
-        { "name": "Catechin Panel (EGCG)", "price": 285.00, "turnaround_time": "5 days" },
+        { "name": "Catechin Panel (EGCG)", "price": 285.00, "turnaround_time": "5 days", "analytes": ["Epicatechin", "Epigallocatechin Gallate (EGCG)", "Epigallocatechin", "Epicatechin Gallate"] },
         { "name": "Berberine", "price": 160.00, "turnaround_time": "5 days" },
         { "name": "Luteolin", "price": 220.00, "turnaround_time": "5 days" },
         { "name": "Quercetin", "price": 160.00, "turnaround_time": "5 days" },
