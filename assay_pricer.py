@@ -25,8 +25,7 @@ class AssayPricer:
     def _normalize(self, s: str) -> str:
         # Remove parentheses and their contents, then normalize
         s = re.sub(r'\([^)]*\)', '', s)
-        # Remove trailing 's' from each word, keep spaces for mapping
-        return ' '.join(word.rstrip('s') for word in s.lower().split())
+        return re.sub(r's$', '', s.replace(' ', '').lower())
 
     def _load_library(self) -> Dict[str, Assay]:
         with open(self.library_path, 'r') as f:
@@ -66,48 +65,26 @@ class AssayPricer:
 
         for item in requested_items:
             norm_item = self._normalize(item)
-            # Vitamin group matching
-            if norm_item.startswith('vitamin') and len(norm_item) > 7:
-                # e.g., 'vitaminb', 'vitaminc', 'vitamina', etc.
-                vitamin_group = item.strip().lower()
-                found = False
-                for assay in self.available_assays.values():
-                    if vitamin_group in assay.name.lower() and self._normalize(assay.name) not in processed_assays:
-                        available.append({
-                            'name': assay.name,
-                            'price': assay.price,
-                            'turnaround_time': assay.turnaround_time
-                        })
-                        total_cost += assay.price
-                        processed_assays.add(self._normalize(assay.name))
-                        found = True
-                if found:
-                    continue  # Skip to next item if vitamin group match found
-            # Check if it's an assay name
-            if norm_item in self.available_assays and norm_item not in processed_assays:
-                assay_data = self.available_assays[norm_item]
-                available.append({
-                    'name': assay_data.name,
-                    'price': assay_data.price,
-                    'turnaround_time': assay_data.turnaround_time
-                })
-                total_cost += assay_data.price
-                processed_assays.add(norm_item)
-            # Check if it's an analyte
-            elif norm_item in self.analyte_to_assay_map:
+            print(f"DEBUG: Processing item: {item}, normalized: {norm_item}")
+            
+            # Check if it's an assay or analyte
+            if norm_item in self.analyte_to_assay_map:
                 assay_name = self.analyte_to_assay_map[norm_item]
                 norm_assay_name = self._normalize(assay_name)
                 if norm_assay_name not in processed_assays:
                     assay_data = self.available_assays[norm_assay_name]
                     available.append({
-                        'name': f"{assay_data.name} ({item})",
+                        'name': assay_data.name,
                         'price': assay_data.price,
-                        'turnaround_time': assay_data.turnaround_time
+                        'turnaround_time': assay_data.turnaround_time,
+                        'requested_analytes': [item]
                     })
                     total_cost += assay_data.price
                     processed_assays.add(norm_assay_name)
+                    print(f"DEBUG: Matched: {item} to assay: {assay_data.name}")
             else:
                 unavailable.append(item)
+                print(f"DEBUG: No match found for: {item}")
 
         return available, unavailable, total_cost
 
@@ -116,7 +93,11 @@ class AssayPricer:
         output.append("TESTS WE CAN DO:")
         if available:
             for assay in available:
-                output.append(f"\n{assay['name']}")
+                if 'requested_analytes' in assay:
+                    analytes_str = ', '.join(assay['requested_analytes'])
+                    output.append(f"\n{assay['name']} ({analytes_str})")
+                else:
+                    output.append(f"\n{assay['name']}")
                 output.append(f"Price: ${assay['price']:.2f}")
                 output.append(f"TAT: {assay['turnaround_time']}")
         else:

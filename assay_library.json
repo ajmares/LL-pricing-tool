@@ -604,6 +604,7 @@
         { "name": "Turkesterone", "price": 240.00, "turnaround_time": "5 days" },
         { "name": "Pterostilbene (Trans-Pterostilbene)", "price": 195.00, "turnaround_time": "5 days" },
         { "name": "Resveratrol", "price": 150.00, "turnaround_time": "5 days" },
-        { "name": "Ubiquinol (Reduced Coenzyme Q10)", "price": 185.00, "turnaround_time": "5 days" }
+        { "name": "Ubiquinol (Reduced Coenzyme Q10)", "price": 185.00, "turnaround_time": "5 days" },
+        { "name": "Chloride", "price": 80.00, "turnaround_time": "5 days" }
     ]
 } 
